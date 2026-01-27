@@ -1,0 +1,41 @@
+instalación boost
+sudo apt update
+sudo apt install libboost-all-dev
+
+instalación nlohmann/json
+sudo apt install nlohmann-json3-dev
+
+instalacion crow
+mkdir external (en la raiz del proyecto)
+cd external
+wget https://github.com/CrowCpp/Crow/releases/download/v1.0/crow_all.h
+
+Luego:
+ctrl + shift + p en VSCode -> C/Cpp: Editar configuraciones de usuario (JSON)
+c/c++ edit configurations JSON
+
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/external"
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
+
+Ejecución:
+mkdir build
+cd build
+cmake ..
+make
+./build/clase1
+
+curl "http://localhost:8080/analizar?file=testdata/entrada.txt"

@@ -1,3 +1,0 @@
-/home/daniel/Escritorio/Documentos Manejo e Implementación de Archivos/LAB_MIA_B_1S_2026/CLASE1/build/CMakeFiles/clase1.dir
-/home/daniel/Escritorio/Documentos Manejo e Implementación de Archivos/LAB_MIA_B_1S_2026/CLASE1/build/CMakeFiles/edit_cache.dir
-/home/daniel/Escritorio/Documentos Manejo e Implementación de Archivos/LAB_MIA_B_1S_2026/CLASE1/build/CMakeFiles/rebuild_cache.dir

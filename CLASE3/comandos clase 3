@@ -1,0 +1,8 @@
+Ejecución:
+mkdir build
+cd build
+cmake ..
+make
+./Clase3
+
+mkdisk -size=50 -fit=wf -unit=m

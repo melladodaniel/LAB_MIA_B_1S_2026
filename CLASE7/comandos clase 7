@@ -1,0 +1,16 @@
+Ejecución:
+mkdir build
+cd build
+cmake ..
+make
+./Clase4
+
+mkdisk -size=50 -fit=wf -unit=m
+fdisk -size=300 -drive=A -name=part1
+mount -drive=A -name=part1
+mkfs -id=A132
+mkdir -path=/home
+mkdir -path=/home/user
+mkdir -path=/home/user/docs
+
+mkfile -path=/home/user/docs/b.txt -cont=/Users/dmellado/Documents/b.txt
